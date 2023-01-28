@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "prod": "node -r esm -r dotenv/config ./bin/www.js dotenv_config_path=.env.prod",
+    "prod": "node -r esm -r dotenv/config ./bin/www.js",
     "start": "nodemon -r esm -r dotenv/config ./bin/www.js",
     "migrate": "node -r esm -r dotenv/config ./bin/migrate.js"
   },
